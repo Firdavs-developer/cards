@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+header {
+  padding: 55px 0;
+  background-color: white;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .container nav ul {
+  display: flex;
+  gap: 47px;
+}
+header .container nav ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+header .container .btns {
+  display: flex;
+  gap: 24px;
+}
+
+header .container .btns .login-btn {
+  border: none;
+  background-color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+header .container .btns .apply-btn {
+  background-color: #000;
+  color: white;
+  padding: 12px 24px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: none;
+}
